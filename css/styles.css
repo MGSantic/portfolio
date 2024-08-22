@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    font-family: system-ui;
+    background-color: #063559;
+    color: #60ff88;
+}
+header{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-weight: bolder;
+    border-bottom: solid 2px #1f6c66;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    border-top: solid 2px #1f6c66;
+    padding-bottom: 1em;
+}
+.logoInstagram{
+width: 3em;
+}
+.logoLinkedin{
+    width: 5em;
+}
+.header1{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.header2{
+    display: flex;
+    gap: 3em;
+    align-items: center;
+}
+.title{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+.subTitle{
+    display: flex;
+    justify-content: space-around;
+}
+.row{
+    margin: 3em 0 3em 0;
+    display: flex;
+    justify-content: space-around;
+}
+.cardProyectosGrandes{
+    display: flex;
+    flex-direction: column;
+}
+.cardProyectosChicos{
+    display: flex;
+    flex-direction: column;
+}
+a{
+    color: #60ff88;
+}
+.proyectTitle{
+}
+.proyectSubTitle{
+}
